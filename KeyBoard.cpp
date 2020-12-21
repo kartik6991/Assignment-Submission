@@ -35,7 +35,7 @@ class Keyboard{
             /* GetAsyncKeyState() is a function which 
             determines whether a key is up or down at the time the function is called, 
             and whether the key was pressed after a previous call to GetAsyncKeyState()*/
-                break;//After pressing Control key and q key, it comes out of the while loop to stop the execution
+                break;//After pressing Control key and q key, it comes out of the while loop to stop the program
             }
     key_press[i]=getch();
     string_1=string_1+key_press[i];
